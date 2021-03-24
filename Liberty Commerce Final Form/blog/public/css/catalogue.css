@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: #deab984d;
+    padding: 5px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.grid-item a,
+.but button {
+    text-decoration: none;
+    color: black;
+}
+
+.but button[type=submit] {
+    background: linear-gradient(90deg, #DE9F87, #deab984d);
+    border-radius: 10px;
+    padding: 6px;
+    width: auto;
+}
+
+.but button[type=submit]:hover {
+    background: linear-gradient(90deg, #deab984d, #DE9F87);
+    color: black;
+}
+
+.logo {
+    height: 190px;
+    width: 190px;
+}
